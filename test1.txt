@@ -1,0 +1,12 @@
+TEST 1: local rebase after publicate branch
+--------------------------------------------------------------------------------
+STEPS:
+1. master: create local branches one and two
+2. one: local commit
+3. one: push
+4. one: local commit
+5. two: local commit
+6. two: push, create pull request, merge to master
+7. master: pull
+8. one: rebase master
+9. one push, create pull request, merge to master
